@@ -2,7 +2,7 @@
 
 namespace Petry\Multiples\Rules;
 
-/* * *                                             
+/**
  * Interface que define a assinatura das regras
  * 
  * Interface: iMultiples
@@ -17,7 +17,6 @@ namespace Petry\Multiples\Rules;
  * 
  * @author Fernando Petry <fernando@ideia.ppg.br>                                                
  */
-
 interface iMultiples
 {
 
