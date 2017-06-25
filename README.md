@@ -28,7 +28,9 @@ try {
 
         // esta regra define se $i for multiplo de 5 ela é válida para seu valor
         $print->addRules(new Multiple5());
-        $this->print .= $print->run() . "<br>";
+        
+        // imprimindo o resultado
+        echo  $print->run() . "<br>";
     }
 } catch (\Exception $e) {
     echo $e->getMessage();
